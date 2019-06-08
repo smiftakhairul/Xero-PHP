@@ -1,0 +1,42 @@
+[
+    {
+        "name": "calcinai/xero-php",
+        "version": "v1.8.5",
+        "version_normalized": "1.8.5.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/calcinai/xero-php.git",
+            "reference": "06738bb903b479c5413cad9343be4926486aaf38"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/calcinai/xero-php/zipball/06738bb903b479c5413cad9343be4926486aaf38",
+            "reference": "06738bb903b479c5413cad9343be4926486aaf38",
+            "shasum": ""
+        },
+        "require": {
+            "ext-curl": "*",
+            "ext-openssl": "*",
+            "php": ">=5.5.0"
+        },
+        "require-dev": {
+            "fabpot/goutte": "~2.0",
+            "phpunit/phpunit": "~4.7",
+            "twig/twig": "1.16.2"
+        },
+        "time": "2019-01-04T22:18:40+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "XeroPHP\\": "src/XeroPHP/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "A client implementation of the Xero API, with a cleaner OAuth interface and ORM-like abstraction.",
+        "homepage": "https://github.com/calcinai/xero-php"
+    }
+]
